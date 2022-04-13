@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,400;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Gradient background Generator</title>
+  </head>
+  <body id="Gradient">
+    <h1>Generate 3 color gradient</h1>
+    <h3>Choose orientation</h3>
+    <div class="orientation">
+      <p class="Right-top">
+        <img src="./images/up-right.png" alt="" />
+      </p>
+      <p class="Right"><img src="./images/right.png" alt="" /></p>
+      <p class="Right-bottom">
+        <img src="./images/down-right.png" alt="" />
+      </p>
+      <p class="Left-top">
+        <img src="./images/up-left.png" alt="" />
+      </p>
+      <p class="Left"><img src="./images/left.png" alt="" /></p>
+      <p class="Left-bottom">
+        <img src="./images/down-right.png" alt="" />
+      </p>
+      <p class="circular"><img src="./images/rotate.png" alt="" /></p>
+    </div>
+    <div class="color_picker_container">
+      <div class="input-color-container">
+        <input
+          class="color1 input-color"
+          type="color"
+          name="color1"
+          value="#D16BA5"
+        />
+      </div>
+      <div class="input-color-container">
+        <input
+          class="color2 input-color"
+          type="color"
+          name="color2"
+          value="#86A8E7"
+        />
+      </div>
+      <div class="input-color-container">
+        <input
+          class="color3 input-color"
+          type="color"
+          name="color3"
+          value="#5FFBF1"
+        />
+      </div>
+    </div>
+    <div class="dynamic_code">
+      <code></code>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
