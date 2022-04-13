@@ -1,0 +1,93 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(
+    to right top,
+    #d16ba5,
+    #c777b9,
+    #ba83ca,
+    #aa8fd8,
+    #9a9ae1,
+    #8aa7ec,
+    #79b3f4,
+    #69bff8,
+    #52cffe,
+    #41dfff,
+    #46eefa,
+    #5ffbf1
+  );
+}
+body > h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  letter-spacing: 3px;
+  font-weight: 900;
+  font-style: italic;
+  text-align: center;
+  color: rgb(247, 247, 247);
+  text-shadow: 6px 6px 0px rgba(0, 0, 0, 0.2);
+  margin-top: 10vh;
+  margin-bottom: 8vh;
+}
+body > h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  color: rgb(250, 250, 250);
+  margin-top: 2rem;
+  margin-bottom: 0;
+}
+.orientation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.orientation > p {
+  margin: 0;
+}
+.orientation > p > img {
+  width: 34px;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  border-radius: 50%;
+}
+.orientation > p > img:hover {
+  background-color: rgba(230, 229, 229, 0.111);
+}
+.color_picker_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input-color-container {
+  position: relative;
+  overflow: hidden;
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: 0.5px solid white;
+  margin: 0.5rem;
+}
+
+.input-color {
+  position: absolute;
+  right: -8px;
+  top: -8px;
+  width: 56px;
+  height: 56px;
+  border: none;
+}
+.dynamic_code {
+  margin-top: 2rem;
+  color: rgb(247, 244, 244);
+  font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+code {
+  width: 40vw;
+  background-color: #eeeeee3b;
+  padding: 1rem 2rem;
+}
